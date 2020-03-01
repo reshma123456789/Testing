@@ -19,7 +19,7 @@ public class HandlingAlert {
 		alert.accept();
 		
 		driver.findElement(By.xpath("//button[contains(text(),'Click for Prompt Box')]")).click();
-		alert.sendKeys("Hello World");
+		//alert.sendKeys("Hello World");
 		Thread.sleep(3000);
 		alert.accept();
 		
